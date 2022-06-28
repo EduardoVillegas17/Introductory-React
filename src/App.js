@@ -8,7 +8,9 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
+      <header className="App-header">
       <h1>Welcome to Organica</h1>
+      </header>
       <Catalog></Catalog>
       <Footer></Footer>
     </div>

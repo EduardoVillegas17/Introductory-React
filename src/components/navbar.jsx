@@ -5,7 +5,7 @@ function Navbar(){
     <div className="navbar">
         <ul className="nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">Active</a>
+          <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">Link</a>
@@ -14,7 +14,7 @@ function Navbar(){
           <a className="nav-link" href="#">Link</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled">Disabled</a>
+          <a className="nav-link disabled">Cart</a>
         </li>
       </ul>
 
