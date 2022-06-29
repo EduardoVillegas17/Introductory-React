@@ -22,7 +22,8 @@ let catalog=[
         price:16.73,
         stock:43,
         title:"potato",
-        image:"3.jpg",        discount:8,
+        image:"3.jpg",
+        discount:8,
         category:"Vegetable"
     },
     {
@@ -30,7 +31,8 @@ let catalog=[
         price:42.54,
         stock:14,
         title:"Cherry",
-        image:"4.jpg",        discount:6,
+        image:"4.jpg",
+        discount:6,
         category:"Fruit"
     },
     {
@@ -38,7 +40,8 @@ let catalog=[
         price:73.53,
         stock:43,
         title:"Carrot",
-        image:"5.jpg",        discount:32,
+        image:"5.jpg",
+        discount:32,
         category:"Vegetable"
     },
     {
@@ -46,7 +49,8 @@ let catalog=[
         price:15.43,
         stock:64,
         title:"Red Chili Pepper",
-        image:"6.jpg",        discount:6,
+        image:"6.jpg",
+        discount:6,
         category:"Vegetable"
     },
     {
@@ -54,7 +58,8 @@ let catalog=[
         price:11.10,
         stock:63,
         title:"Kiwi",
-        image:"7.jpg",        discount:2,
+        image:"7.jpg",
+        discount:2,
         category:"Fruit"
     },
     {
@@ -62,15 +67,16 @@ let catalog=[
         price:69.03,
         stock:46,
         title:"Bannana",
-        image:"8.jpg",        discount:8,
+        image:"8.jpg",
+        discount:8,
         category:"Fruit"
     },
     
 ];
 
-class DataServices{
+class DataService{
     getCatalog(){
         return catalog;
     }
 }
-export default DataServices;
+export default DataService;
